@@ -1,0 +1,23 @@
+{
+  "name": "culb-vicharka.github.io",
+  "version": "1.0.0",
+  "description": "a repo fro website for vicharka club ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-VicharkaIISc/CULB-VICHARKA.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-VicharkaIISc/CULB-VICHARKA.github.io/issues"
+  },
+  "homepage": "https://github.com/Team-VicharkaIISc/CULB-VICHARKA.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

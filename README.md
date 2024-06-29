@@ -6,3 +6,4 @@ Run the build command:
 npm start
 ```
 Then continue with development.
+(note requires NodeJS or NPM installed)

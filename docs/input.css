@@ -1,34 +1,38 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
 
-@keyframes expandWidth {
-    0% {
-        width: 10vw;
-    }
-    100% {
-        width: 30vw;
-    }
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+@keyframes rotate_around {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+
+        100% {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+      @keyframes morph {
+        0% {
+          border-radius: 50%;
+        }
+        25% {
+          border-radius: 40% 60% 60% 40%;
+        }
+        50% {
+          border-radius: 60% 40% 40% 60%;
+        }
+        75% {
+          border-radius: 50% 50% 60% 40%;
+        }
+        100% {
+          border-radius: 50%;
+        }
+      }
+    
+#blob{
+    animation: rotate_around 10s  infinite,morph 10s infinite;
+
 }
-
-@keyframes expand {
-    0% {
-        width: 0;
-        height: 0;
-    }
-    100% {
-        width: 80px;
-        height: 80px;
-    }
-}
-
-#robot {
-    width: 30vw;
-    height: auto;
-    animation: expandWidth 1s ease-in-out ;
-}
-
-body{
-    cursor: none;
-}
-

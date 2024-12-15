@@ -2,7 +2,7 @@
 export default async function GenerateHeader(headerContainer){
     const origin = window.location.origin + "/docs";
     const  headerHTML=`
-    <div class="navbar bg-transparent text-white p-4 top-0 z-10">
+    <div class="navbar bg-transparent text-white p-4 top-0 z-10 ">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -23,20 +23,20 @@ export default async function GenerateHeader(headerContainer){
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><a href="${origin}/index.html">HOME</a></li>
-            <li><a href="${origin}/pages/members.html">CLUB</a></li>
+            <li><a href="${origin}/pages/club.html">CLUB</a></li>
             <li><a href="${origin}/pages/events.html">EVENTS</a></li>
             <li><a href="${origin}/pages/projects.html">PROJECTS</a></li>
-            <li><a href="${origin}/pages/contact.html"> ROVER</a></li>
+            <li><a href="${origin}/pages/rover.html"> ROVER</a></li>
           </ul>
         </div>
       </div>
       <div class="navbar-center hidden w-3/4 lg:flex">
-        <ul class="menu menu-horizontal p-4 mx-8 text-xl text-xl w-full justify-around">
+        <ul class="menu menu-horizontal p-4 mx-8 text-xl w-full justify-around">
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
             <a href="${origin}/index.html" class="">HOME</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/pages/members.html" class="">CLUB</a>
+            <a href="${origin}/pages/club.html" class="">CLUB</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
             <a href="${origin}/pages/events.html" class="">EVENTS</a>
@@ -45,7 +45,7 @@ export default async function GenerateHeader(headerContainer){
             <a href="${origin}/pages/projects.html" class="">PROJECTS</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/pages/contact.html" class="">ROVER</a>
+            <a href="${origin}/pages/rover.html" class="">ROVER</a>
           </li>
         </ul>
       </div>

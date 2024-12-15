@@ -5,10 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch",
-    "serve": "live-server docs",
-    "start": "concurrently \"npm run build:css\" \"npm run serve\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
   },
   "repository": {
     "type": "git",

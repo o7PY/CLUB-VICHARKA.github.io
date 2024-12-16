@@ -5,10 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch",
-  "serve": "live-server docs",
-  "start": "concurrently \"npm run build:css\" \"npm run serve\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -21,10 +18,7 @@
   },
   "homepage": "https://github.com/Team-VicharkaIISc/CULB-VICHARKA.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "concurrently": "^8.2.2",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "live-server": "^1.2.2"
+    "daisyui": "^4.12.22",
+    "tailwindcss": "^3.4.4"
   }
 }

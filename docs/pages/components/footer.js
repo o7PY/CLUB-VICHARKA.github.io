@@ -2,10 +2,12 @@
 export default async function GenerateFooter(footerContainer){
     const origin = window.location.origin + "/docs";
     const  headerHTML=`
+    <div class="divider divider-primary w-[80%]  m-auto  py-8 "></div>
+
  <div class="footer bg-transparent text-white p-10 flex  justify-center gap-[20vw] items-center z-10">
         <!-- Left Section -->
         <div class="flex flex-col items-center mb-6 md:mb-0">
-          <a href="${origin}"><img src="${origin}/images/vicharaka.png" class="w-80 h-52 bg-gray-300 rounded-3xl hover:scale-110 ease-in-out duration-500 "></img></a>
+          <a href="${origin}"><img src="${origin}/images/vicharaka.png" class="w-80 h-52 bg-gray-300 rounded-3xl hover:scale-110 ease-in-out duration-200 "></img></a>
          
         </div>
     
